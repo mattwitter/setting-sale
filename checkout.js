@@ -1,5 +1,5 @@
-function predicate(items) {
-  return items.discount > 0
+function predicate(singleItem) {
+  return singleItem.discount > 0
 }
 
 function selectSaleItems(items) {
